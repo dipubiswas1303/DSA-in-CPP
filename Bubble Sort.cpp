@@ -1,3 +1,7 @@
+// Repeatedly swaps adjacent elements if they are in the wrong order.
+// Time Complexity: O(n²)
+// Space Complexity: O(1)
+
 #include <iostream>
 #include <vector>
 using namespace std;
