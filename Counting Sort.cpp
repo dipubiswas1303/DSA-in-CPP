@@ -13,7 +13,7 @@ void countingSort(vector<int>& arr) {
     // Find the maximum and minimum values in the array
     int maxVal = *max_element(arr.begin(), arr.end());
     int minVal = *min_element(arr.begin(), arr.end());
-    int range = maxVal - minVal + 1;
+    int range = maxVal - minVal + 1;    
 
     // Create a count array and initialize it to 0
     vector<int> count(range, 0);
